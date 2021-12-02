@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  background-color: #ecf2f8;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  padding-top: 5%;
+}
+main .wrapper {
+  position: relative;
+  width: 70%;
+  height: 80%;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .wrapper .testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+main .wrapper .testimonial-1 {
+  width: 75%;
+  height: 100%;
+  row-gap: 4%;
+  -webkit-column-gap: 3%;
+     -moz-column-gap: 3%;
+          column-gap: 3%;
+}
+main .wrapper .testimonial-1 .card {
+  height: 48%;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.159);
+          box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.159);
+}
+main .wrapper .testimonial-1 .card .card-header {
+  height: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .wrapper .testimonial-1 .card .card-header .card-img {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .wrapper .testimonial-1 .card .card-header .card-img img {
+  width: 70%;
+  border-radius: 50%;
+}
+main .wrapper .testimonial-1 .card .card-header .card-details .card-name {
+  color: #e6e6e6;
+}
+main .wrapper .testimonial-1 .card .card-header .card-details .card-status {
+  font-size: 11px;
+  color: #b3b3b3;
+}
+main .wrapper .testimonial-1 .card .card-sub-header {
+  height: 25%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+main .wrapper .testimonial-1 .card .card-body {
+  height: 50%;
+  line-height: 18px;
+  color: #b3b3b3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .wrapper .testimonial-1 .card-1 {
+  width: 70%;
+  background: #7541c8;
+  position: relative;
+}
+main .wrapper .testimonial-1 .card-1 .card-header .card-img {
+  width: 9%;
+}
+main .wrapper .testimonial-1 .card-2 {
+  width: 27%;
+  background: #48556a;
+}
+main .wrapper .testimonial-1 .card-3 {
+  width: 27%;
+}
+main .wrapper .testimonial-1 .card-3 .card-header .card-details .card-name {
+  color: gray;
+}
+main .wrapper .testimonial-1 .card-3 .card-header .card-details .card-status {
+  color: #b3b3b3;
+}
+main .wrapper .testimonial-1 .card-3 .card-sub-header {
+  color: gray;
+}
+main .wrapper .testimonial-1 .card-4 {
+  width: 70%;
+  background: #19212e;
+}
+main .wrapper .testimonial-1 .card-4 .card-header .card-img {
+  width: 9%;
+}
+main .wrapper .testimonial-2 {
+  width: 22%;
+  height: 100%;
+}
+main .wrapper .testimonial-2 .card {
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.159);
+          box-shadow: 4px 4px 15px 1px rgba(0, 0, 0, 0.159);
+}
+main .wrapper .testimonial-2 .card .card-header {
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .wrapper .testimonial-2 .card .card-header .card-img {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .wrapper .testimonial-2 .card .card-header .card-img img {
+  width: 70%;
+  border-radius: 50%;
+}
+main .wrapper .testimonial-2 .card .card-header .card-details .card-name {
+  color: gray;
+}
+main .wrapper .testimonial-2 .card .card-header .card-details .card-status {
+  font-size: 11px;
+  color: #b3b3b3;
+}
+main .wrapper .testimonial-2 .card .card-sub-header {
+  height: 20%;
+  color: gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+main .wrapper .testimonial-2 .card .card-body {
+  height: 70%;
+  line-height: 18px;
+  color: #b3b3b3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    height: 100%;
+  }
+
+  main {
+    padding-top: unset;
+  }
+  main .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 85%;
+    margin: 50px auto;
+    row-gap: 20px;
+  }
+  main .wrapper .testimonial-1 {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+  }
+  main .wrapper .testimonial-1 .card {
+    width: 100%;
+  }
+  main .wrapper .testimonial-1 .card-1 .card-header .card-img, main .wrapper .testimonial-1 .card-4 .card-header .card-img {
+    width: 24%;
+  }
+  main .wrapper .testimonial-2 {
+    width: 100%;
+  }
+}
